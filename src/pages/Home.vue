@@ -2,9 +2,21 @@
     <div>
         <app-header/>
         <div>
-            <h6 v-for="message in messageList" :key="message"><span>{{message.user.username}}:</span> {{message.text}}</h6>
+            <div 
+                v-for="message in messageList"
+                :key="message"
+                class="alert message" 
+                :class="message.user.color"
+                :style="message.user.id==this._getCurrentUser.id ? 'margin-left:auto' : 'margin-right:auto' "
+                role="alert"
+                >
+                <span 
+                    class="username">{{message.user.username}}:
+                </span>
+                {{message.text}} 
+            </div>
         </div>
-        <div class="socket">
+        <div class="input-message-container fixed-bottom">
             <input class="input-message" type="text" @keydown.enter="SEND_MESSAGE">
         </div>
     </div>
@@ -58,7 +70,21 @@ export default {
 </script>
 
 <style>
+    .input-message-container{
+        text-align: center;
+    }
     .input-message{
         background-color: lightblue;
+        width: 98%;
+        padding: 10px;
+        margin: 10px 0px;
+        border-radius: 10px;
+    }
+    .message{
+        width: 400px;
+        word-wrap: break-word;
+    }
+    .username{
+        font-size: 12px;
     }
 </style>

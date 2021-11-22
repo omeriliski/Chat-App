@@ -1,11 +1,22 @@
 <template>
   <!-- ! HEADER -->
-  <div class="header-container">
-    <nav class="flex w-full px-2">
+  <div class="header-container d-flex justify-content-end">
+    <!-- <nav class="flex w-full px-2">
       <div v-if="_isAuthenticated" class="ml-auto flex items-center">
         <div class="relative group">
           <button
-            class="w-8 h-8 flex items-center justify-center rounded-md transition-colors duration-500 hover:bg-gray-200 group-focus-within:bg-gray-300"
+            class="
+              w-8
+              h-8
+              flex
+              items-center
+              justify-center
+              rounded-md
+              transition-colors
+              duration-500
+              hover:bg-gray-200
+              group-focus-within:bg-gray-300
+            "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +32,20 @@
             </svg>
           </button>
           <nav
-            class="bg-white !z-10 rounded-md shadow-md p-2 w-56 flex flex-col absolute group-focus-within:visible top-full right-0 invisible"
+            class="
+              bg-white
+              !z-10
+              rounded-md
+              shadow-md
+              p-2
+              w-56
+              flex flex-col
+              absolute
+              group-focus-within:visible
+              top-full
+              right-0
+              invisible
+            "
           >
             <a @click="onLogout" href="#" class="menu-item">
               <svg
@@ -42,6 +66,27 @@
               Logout</a
             >
           </nav>
+        </div>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div v-if="_isAuthenticated" class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" @click="onLogout" aria-current="page" href="#">Logout</a>
+          </div>
         </div>
       </div>
     </nav>

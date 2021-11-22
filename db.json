@@ -4,192 +4,108 @@
       "fullname": "ali iliski",
       "username": "ali",
       "password": "a92020f9291a5a78a871ff7ea0a21020fd48f124",
+      "color": "alert-primary",
       "id": 2
     },
     {
       "fullname": "omer iliski",
       "username": "omer",
       "password": "60e747fa355405f43b2528af3fb9a871faba67f4",
+      "color": "alert-secondary",
       "id": 3
     },
     {
       "fullname": "osman ak",
       "username": "osman",
       "password": "9cc1211eb0b434876c0b3904a90e62520bd369b8",
+      "color": "alert-success",
       "id": 4
+    },
+    {
+      "fullname": "aysegül",
+      "username": "nimloth",
+      "password": "e18b19e03c426a78fb75e510585de71e62396798",
+      "color": "alert-danger",
+      "id": 5
+    },
+    {
+      "fullname": "thomas",
+      "username": "thomas",
+      "password": "d139ddcc122b9383210c55e5f6640c8fa80cf5d8",
+      "color": "alert-success",
+      "id": 6
     }
   ],
   "messages": [
     {
-      "text": "selam",
+      "text": "hallo",
       "user": {
         "fullname": "omer iliski",
         "username": "omer",
+        "color": "alert-secondary",
         "id": 3
       },
       "id": 1
     },
     {
-      "text": "merhaba",
+      "text": "nasilsin",
       "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
+        "fullname": "aysegül",
+        "username": "nimloth",
+        "color": "alert-danger",
+        "id": 5
       },
       "id": 2
     },
     {
-      "text": "selam",
+      "text": "iyiyim sen nasilsin",
       "user": {
         "fullname": "omer iliski",
         "username": "omer",
+        "color": "alert-secondary",
         "id": 3
       },
       "id": 3
     },
     {
-      "text": "merhaba",
+      "text": "heyy siz de mi buradasiniz",
       "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
+        "fullname": "thomas",
+        "username": "thomas",
+        "color": "alert-success",
+        "id": 6
       },
       "id": 4
     },
     {
-      "text": "selam",
+      "text": "hallo thomas",
       "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
+        "fullname": "aysegül",
+        "username": "nimloth",
+        "color": "alert-danger",
+        "id": 5
       },
       "id": 5
     },
     {
-      "text": "aaa",
+      "text": "nasilsin",
       "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
+        "fullname": "aysegül",
+        "username": "nimloth",
+        "color": "alert-danger",
+        "id": 5
       },
       "id": 6
     },
     {
-      "text": "aaa",
+      "text": "iyiyim",
       "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
+        "fullname": "thomas",
+        "username": "thomas",
+        "color": "alert-success",
+        "id": 6
       },
       "id": 7
-    },
-    {
-      "text": "bbb",
-      "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
-      },
-      "id": 8
-    },
-    {
-      "text": "aaa",
-      "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
-      },
-      "id": 9
-    },
-    {
-      "text": "sss",
-      "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
-      },
-      "id": 10
-    },
-    {
-      "text": "aaa",
-      "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
-      },
-      "id": 11
-    },
-    {
-      "text": "ccc",
-      "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
-      },
-      "id": 12
-    },
-    {
-      "text": "aaa",
-      "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
-      },
-      "id": 13
-    },
-    {
-      "text": "bbb",
-      "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
-      },
-      "id": 14
-    },
-    {
-      "text": "aasasasd",
-      "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
-      },
-      "id": 15
-    },
-    {
-      "text": "adas",
-      "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
-      },
-      "id": 16
-    },
-    {
-      "text": "adas",
-      "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
-      },
-      "id": 17
-    },
-    {
-      "text": "adasd",
-      "user": {
-        "fullname": "omer iliski",
-        "username": "omer",
-        "id": 3
-      },
-      "id": 18
-    },
-    {
-      "text": "asdasd",
-      "user": {
-        "fullname": "ali iliski",
-        "username": "ali",
-        "id": 2
-      },
-      "id": 19
     }
   ]
 }
