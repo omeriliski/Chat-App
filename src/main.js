@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/src/jquery.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-const socket=io("http://localhost:2021");
+const socket=io("https://chat-app-server01.herokuapp.com/");
 const app=createApp(App);
 app.use(router);
 app.use(store);

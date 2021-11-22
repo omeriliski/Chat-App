@@ -7,6 +7,9 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "engines": {
+    "node": "15.x"
+  },  
   "dependencies": {
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",

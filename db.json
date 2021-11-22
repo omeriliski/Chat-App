@@ -106,6 +106,26 @@
         "id": 6
       },
       "id": 7
+    },
+    {
+      "text": "selam",
+      "user": {
+        "fullname": "thomas",
+        "username": "thomas",
+        "color": "alert-success",
+        "id": 6
+      },
+      "id": 8
+    },
+    {
+      "text": "selam",
+      "user": {
+        "fullname": "aysegül",
+        "username": "nimloth",
+        "color": "alert-danger",
+        "id": 5
+      },
+      "id": 9
     }
   ]
 }
